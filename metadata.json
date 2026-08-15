@@ -1,0 +1,6 @@
+{
+  "name": "Tyre Shop CRM",
+  "description": "Enterprise tyre shop inventory, purchasing, GST billing, attendance, payroll, and CRM management system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

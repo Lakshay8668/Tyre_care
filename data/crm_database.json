@@ -1,0 +1,937 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Rajesh Sharma",
+      "username": "rajesh",
+      "email": "owner@apextyres.com",
+      "role": "admin",
+      "phone": "9876543210",
+      "active": true,
+      "permissions": {}
+    },
+    {
+      "id": "usr-2",
+      "name": "Vikram Singh",
+      "username": "vikram",
+      "email": "manager@apextyres.com",
+      "role": "manager",
+      "phone": "9876543211",
+      "active": true,
+      "permissions": {}
+    },
+    {
+      "id": "usr-3",
+      "name": "Priya Verma",
+      "username": "priya",
+      "email": "accounts@apextyres.com",
+      "role": "accountant",
+      "phone": "9876543212",
+      "active": true,
+      "permissions": {}
+    },
+    {
+      "id": "usr-4",
+      "name": "Amit Kumar",
+      "username": "amit",
+      "email": "sales@apextyres.com",
+      "role": "sales",
+      "phone": "9876543213",
+      "active": true,
+      "permissions": {}
+    },
+    {
+      "id": "usr-5",
+      "name": "Suresh Tech",
+      "username": "suresh",
+      "email": "store@apextyres.com",
+      "role": "storekeeper",
+      "phone": "9876543214",
+      "active": true,
+      "permissions": {}
+    }
+  ],
+  "tyre_categories": [
+    {
+      "id": "cat-1",
+      "name": "Car Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-2",
+      "name": "SUV Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-3",
+      "name": "Commercial Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-4",
+      "name": "Truck Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-5",
+      "name": "Bus Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-6",
+      "name": "Bike Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-7",
+      "name": "Scooter Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-8",
+      "name": "Agricultural Tyre",
+      "active": true
+    },
+    {
+      "id": "cat-9",
+      "name": "Other",
+      "active": true
+    }
+  ],
+  "tyre_brands": [
+    {
+      "id": "brand-1",
+      "name": "MRF",
+      "active": true
+    },
+    {
+      "id": "brand-2",
+      "name": "CEAT",
+      "active": true
+    },
+    {
+      "id": "brand-3",
+      "name": "Apollo",
+      "active": true
+    },
+    {
+      "id": "brand-4",
+      "name": "Bridgestone",
+      "active": true
+    },
+    {
+      "id": "brand-5",
+      "name": "Michelin",
+      "active": true
+    },
+    {
+      "id": "brand-6",
+      "name": "Goodyear",
+      "active": true
+    },
+    {
+      "id": "brand-7",
+      "name": "Yokohama",
+      "active": true
+    }
+  ],
+  "tyre_sizes": [
+    {
+      "id": "size-1",
+      "name": "90/90 R12",
+      "active": true
+    },
+    {
+      "id": "size-2",
+      "name": "145/80 R12",
+      "active": true
+    },
+    {
+      "id": "size-3",
+      "name": "155/65 R13",
+      "active": true
+    },
+    {
+      "id": "size-4",
+      "name": "165/70 R14",
+      "active": true
+    },
+    {
+      "id": "size-5",
+      "name": "175/65 R15",
+      "active": true
+    },
+    {
+      "id": "size-6",
+      "name": "185/65 R15",
+      "active": true
+    },
+    {
+      "id": "size-7",
+      "name": "195/55 R16",
+      "active": true
+    },
+    {
+      "id": "size-8",
+      "name": "205/55 R16",
+      "active": true
+    },
+    {
+      "id": "size-9",
+      "name": "215/60 R17",
+      "active": true
+    }
+  ],
+  "tyre_models": [
+    {
+      "id": "model-1",
+      "brand": "MRF",
+      "name": "ZVTV",
+      "active": true
+    },
+    {
+      "id": "model-2",
+      "brand": "MRF",
+      "name": "Perfinza",
+      "active": true
+    },
+    {
+      "id": "model-3",
+      "brand": "MRF",
+      "name": "Wanderer",
+      "active": true
+    },
+    {
+      "id": "model-4",
+      "brand": "MRF",
+      "name": "ZVT V",
+      "active": true
+    },
+    {
+      "id": "model-5",
+      "brand": "CEAT",
+      "name": "Milaze",
+      "active": true
+    },
+    {
+      "id": "model-6",
+      "brand": "CEAT",
+      "name": "SecuraDrive",
+      "active": true
+    },
+    {
+      "id": "model-7",
+      "brand": "CEAT",
+      "name": "SportDrive",
+      "active": true
+    },
+    {
+      "id": "model-8",
+      "brand": "Apollo",
+      "name": "Alnac 4G",
+      "active": true
+    },
+    {
+      "id": "model-9",
+      "brand": "Apollo",
+      "name": "Amazer 4G",
+      "active": true
+    },
+    {
+      "id": "model-10",
+      "brand": "Bridgestone",
+      "name": "Turanza",
+      "active": true
+    },
+    {
+      "id": "model-11",
+      "brand": "Bridgestone",
+      "name": "Ecopia",
+      "active": true
+    },
+    {
+      "id": "model-12",
+      "brand": "Michelin",
+      "name": "Primacy 4",
+      "active": true
+    },
+    {
+      "id": "model-13",
+      "brand": "Goodyear",
+      "name": "Assurance",
+      "active": true
+    },
+    {
+      "id": "model-14",
+      "brand": "Yokohama",
+      "name": "Earth-1 E400",
+      "active": true
+    }
+  ],
+  "tyres": [
+    {
+      "id": "tyre-101",
+      "brand": "MRF",
+      "model": "ZVT V",
+      "size": "145/80 R12",
+      "category": "Car Tyre",
+      "vehicle_type": "Hatchback (Alto, Eeco)",
+      "season": "All-Season",
+      "pattern": "Symmetric Rib",
+      "speed_rating": "T (190 km/h)",
+      "load_index": "74",
+      "purchase_price": 2150,
+      "selling_price": 2650,
+      "min_selling_price": 2500,
+      "gst_rate": 28,
+      "opening_stock": 50,
+      "current_stock": 42,
+      "min_stock_level": 10,
+      "max_stock_level": 100,
+      "description": "Long life radial tyre designed for city hatchbacks.",
+      "is_active": true,
+      "created_at": "2026-01-10T10:00:00Z",
+      "updated_at": "2026-08-10T10:00:00Z"
+    },
+    {
+      "id": "tyre-102",
+      "brand": "MRF",
+      "model": "ZVTV",
+      "size": "175/65 R15",
+      "category": "Car Tyre",
+      "vehicle_type": "Sedan (Honda City, Dzire)",
+      "season": "All-Season",
+      "pattern": "Asymmetric Premium",
+      "speed_rating": "H (210 km/h)",
+      "load_index": "84",
+      "purchase_price": 4200,
+      "selling_price": 5200,
+      "min_selling_price": 4900,
+      "gst_rate": 28,
+      "opening_stock": 40,
+      "current_stock": 3,
+      "min_stock_level": 8,
+      "max_stock_level": 80,
+      "description": "Superior grip and wet braking stability for premium sedans.",
+      "is_active": true,
+      "created_at": "2026-01-10T10:00:00Z",
+      "updated_at": "2026-08-11T12:00:00Z"
+    },
+    {
+      "id": "tyre-103",
+      "brand": "CEAT",
+      "model": "Milaze X3",
+      "size": "155/65 R13",
+      "category": "Car Tyre",
+      "vehicle_type": "Hatchback (WagonR, Santro)",
+      "season": "All-Season",
+      "pattern": "High Mileage Tread",
+      "speed_rating": "T (190 km/h)",
+      "load_index": "73",
+      "purchase_price": 2400,
+      "selling_price": 3100,
+      "min_selling_price": 2950,
+      "gst_rate": 28,
+      "opening_stock": 60,
+      "current_stock": 48,
+      "min_stock_level": 12,
+      "max_stock_level": 120,
+      "description": "Guaranteed 1,00,000 km durability with high puncture resistance.",
+      "is_active": true,
+      "created_at": "2026-01-12T10:00:00Z",
+      "updated_at": "2026-08-11T14:00:00Z"
+    },
+    {
+      "id": "tyre-104",
+      "brand": "Apollo",
+      "model": "Alnac 4G",
+      "size": "185/65 R15",
+      "category": "Car Tyre",
+      "vehicle_type": "Premium Hatch (i20, Baleno)",
+      "season": "All-Season",
+      "pattern": "Quiet Drive Tread",
+      "speed_rating": "V (240 km/h)",
+      "load_index": "88",
+      "purchase_price": 4500,
+      "selling_price": 5600,
+      "min_selling_price": 5350,
+      "gst_rate": 28,
+      "opening_stock": 35,
+      "current_stock": 28,
+      "min_stock_level": 6,
+      "max_stock_level": 60,
+      "description": "High speed directional stability and reduced cabin road noise.",
+      "is_active": true,
+      "created_at": "2026-01-15T10:00:00Z",
+      "updated_at": "2026-08-11T15:00:00Z"
+    },
+    {
+      "id": "tyre-105",
+      "brand": "Bridgestone",
+      "model": "Turanza T005",
+      "size": "215/60 R17",
+      "category": "SUV Tyre",
+      "vehicle_type": "Compact SUV (Creta, Seltos)",
+      "season": "All-Season",
+      "pattern": "Luxury Touring",
+      "speed_rating": "H (210 km/h)",
+      "load_index": "96",
+      "purchase_price": 7800,
+      "selling_price": 9800,
+      "min_selling_price": 9300,
+      "gst_rate": 28,
+      "opening_stock": 20,
+      "current_stock": 14,
+      "min_stock_level": 4,
+      "max_stock_level": 40,
+      "description": "Luxury high performance SUV tyre with extreme wet weather safety.",
+      "is_active": true,
+      "created_at": "2026-02-01T10:00:00Z",
+      "updated_at": "2026-08-10T09:00:00Z"
+    },
+    {
+      "id": "tyre-106",
+      "brand": "Michelin",
+      "model": "Primacy 4ST",
+      "size": "205/55 R16",
+      "category": "Car Tyre",
+      "vehicle_type": "Executive Sedan (Civic, Elantra, Octavia)",
+      "season": "Summer",
+      "pattern": "Silent Tread Tech",
+      "speed_rating": "W (270 km/h)",
+      "load_index": "91",
+      "purchase_price": 8500,
+      "selling_price": 10800,
+      "min_selling_price": 10200,
+      "gst_rate": 28,
+      "opening_stock": 15,
+      "current_stock": 11,
+      "min_stock_level": 4,
+      "max_stock_level": 30,
+      "description": "Ultra premium comfortable drive with maximum braking efficiency.",
+      "is_active": true,
+      "created_at": "2026-02-10T10:00:00Z",
+      "updated_at": "2026-08-11T11:00:00Z"
+    },
+    {
+      "id": "tyre-107",
+      "brand": "CEAT",
+      "model": "Gripp X3",
+      "size": "90/90 R12",
+      "category": "Scooter Tyre",
+      "vehicle_type": "Scooter (Activa, Jupiter)",
+      "season": "All-Season",
+      "pattern": "Deep Angular Grooves",
+      "speed_rating": "J (100 km/h)",
+      "load_index": "54",
+      "purchase_price": 1100,
+      "selling_price": 1450,
+      "min_selling_price": 1380,
+      "gst_rate": 28,
+      "opening_stock": 80,
+      "current_stock": 65,
+      "min_stock_level": 15,
+      "max_stock_level": 150,
+      "description": "High traction dual-compound rubber for urban scooters.",
+      "is_active": true,
+      "created_at": "2026-02-15T10:00:00Z",
+      "updated_at": "2026-08-11T16:00:00Z"
+    },
+    {
+      "id": "tyre-108",
+      "brand": "Yokohama",
+      "model": "Earth-1 E400",
+      "size": "195/55 R16",
+      "category": "Car Tyre",
+      "vehicle_type": "Hatch / Sedan (i20, City)",
+      "season": "All-Season",
+      "pattern": "Orange Oil Compound",
+      "speed_rating": "V (240 km/h)",
+      "load_index": "87",
+      "purchase_price": 5200,
+      "selling_price": 6600,
+      "min_selling_price": 6300,
+      "gst_rate": 28,
+      "opening_stock": 25,
+      "current_stock": 2,
+      "min_stock_level": 5,
+      "max_stock_level": 50,
+      "description": "Specially engineered for Indian road conditions with sidewall protection.",
+      "is_active": true,
+      "created_at": "2026-03-01T10:00:00Z",
+      "updated_at": "2026-08-12T09:00:00Z"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "id": "mov-1",
+      "date": "2026-08-01T10:00:00Z",
+      "ref_number": "OP-STOCK-01",
+      "transaction_type": "opening_stock",
+      "tyre_id": "tyre-101",
+      "tyre_name": "MRF ZVT V 145/80 R12",
+      "qty_in": 50,
+      "qty_out": 0,
+      "balance": 50,
+      "user_id": "usr-1",
+      "user_name": "Rajesh Sharma",
+      "remarks": "Initial system opening balance"
+    },
+    {
+      "id": "mov-2",
+      "date": "2026-08-05T11:30:00Z",
+      "ref_number": "PUR-2026-001",
+      "transaction_type": "purchase",
+      "tyre_id": "tyre-102",
+      "tyre_name": "MRF ZVTV 175/65 R15",
+      "qty_in": 15,
+      "qty_out": 0,
+      "balance": 15,
+      "user_id": "usr-5",
+      "user_name": "Suresh Tech",
+      "remarks": "Stock inward from MRF Regional Depot"
+    },
+    {
+      "id": "mov-3",
+      "date": "2026-08-10T14:15:00Z",
+      "ref_number": "INV-2026-1001",
+      "transaction_type": "sale",
+      "tyre_id": "tyre-102",
+      "tyre_name": "MRF ZVTV 175/65 R15",
+      "qty_in": 0,
+      "qty_out": 4,
+      "balance": 11,
+      "user_id": "usr-4",
+      "user_name": "Amit Kumar",
+      "remarks": "Billed on Invoice INV-2026-1001 to Rohan Malhotra"
+    },
+    {
+      "id": "mov-4",
+      "date": "2026-08-11T16:00:00Z",
+      "ref_number": "INV-2026-1002",
+      "transaction_type": "sale",
+      "tyre_id": "tyre-102",
+      "tyre_name": "MRF ZVTV 175/65 R15",
+      "qty_in": 0,
+      "qty_out": 8,
+      "balance": 3,
+      "user_id": "usr-4",
+      "user_name": "Amit Kumar",
+      "remarks": "Billed on Invoice INV-2026-1002 to Sunil Transport"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-1",
+      "name": "MRF Regional Depot - North Zone",
+      "contact_person": "Ramesh Agarwal",
+      "mobile": "+91 98111 22334",
+      "email": "northdepot@mrfmail.com",
+      "address": "Warehouse A4, Transport Nagar, Delhi",
+      "gstin": "07AAACM1234F1Z1",
+      "payment_terms": "15 Days Credit",
+      "opening_balance": 0,
+      "outstanding_balance": 145000,
+      "created_at": "2026-01-01T10:00:00Z"
+    },
+    {
+      "id": "sup-2",
+      "name": "CEAT India Wholesale Distributors",
+      "contact_person": "Sanjay Deshmukh",
+      "mobile": "+91 98222 33445",
+      "email": "sales@ceatdistributors.com",
+      "address": "22 GT Karnal Road, Outer Ring, Delhi",
+      "gstin": "07BBBCD5678G1Z2",
+      "payment_terms": "Cash / 7 Days",
+      "opening_balance": 0,
+      "outstanding_balance": 68000,
+      "created_at": "2026-01-05T10:00:00Z"
+    },
+    {
+      "id": "sup-3",
+      "name": "Apollo Tyres Regional Logistics",
+      "contact_person": "Anil Gupta",
+      "mobile": "+91 98333 44556",
+      "email": "delhi.hub@apollotyres.com",
+      "address": "Sector 18, Udyog Vihar, Gurugram",
+      "gstin": "06CCCAP9988H1Z3",
+      "payment_terms": "30 Days Credit",
+      "opening_balance": 0,
+      "outstanding_balance": 0,
+      "created_at": "2026-01-10T10:00:00Z"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "pur-1",
+      "purchase_number": "PUR-2026-001",
+      "purchase_date": "2026-08-05",
+      "supplier_id": "sup-1",
+      "supplier_name": "MRF Regional Depot - North Zone",
+      "supplier_invoice_number": "MRF/DEL/8841",
+      "items": [
+        {
+          "id": "pitem-1",
+          "tyre_id": "tyre-102",
+          "tyre_name": "MRF ZVTV 175/65 R15",
+          "size": "175/65 R15",
+          "quantity": 15,
+          "purchase_rate": 4200,
+          "discount": 0,
+          "gst_rate": 28,
+          "taxable_amount": 63000,
+          "gst_amount": 17640,
+          "total_amount": 80640
+        }
+      ],
+      "subtotal": 63000,
+      "discount": 0,
+      "taxable_amount": 63000,
+      "gst_amount": 17640,
+      "grand_total": 80640,
+      "payment_status": "partial",
+      "payment_mode": "bank_transfer",
+      "amount_paid": 40000,
+      "balance_due": 40640,
+      "notes": "Standard batch shipment received in good condition.",
+      "created_by": "Suresh Tech",
+      "created_at": "2026-08-05T11:30:00Z"
+    }
+  ],
+  "purchase_returns": [],
+  "customers": [
+    {
+      "id": "cust-1",
+      "customer_code": "CUST-1001",
+      "name": "Sunil Transport Fleet Pvt Ltd",
+      "mobile": "+91 99100 88221",
+      "email": "sunil@suniltransport.com",
+      "address": "D-12 Okhla Industrial Area Phase 3, New Delhi",
+      "gstin": "07AABCS1234D1Z9",
+      "vehicle_number": "DL 01 AA 9988",
+      "vehicle_model": "Commercial Fleet",
+      "customer_type": "fleet",
+      "credit_limit": 250000,
+      "outstanding_balance": 42000,
+      "created_at": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "cust-2",
+      "customer_code": "CUST-1002",
+      "name": "Rohan Malhotra",
+      "mobile": "+91 98188 55443",
+      "email": "rohan.m@gmail.com",
+      "address": "House 402, Block B, Vasant Kunj, New Delhi",
+      "gstin": "",
+      "vehicle_number": "DL 08 CZ 1234",
+      "vehicle_model": "Honda City ZXi",
+      "customer_type": "retail",
+      "credit_limit": 0,
+      "outstanding_balance": 0,
+      "created_at": "2026-02-01T10:00:00Z"
+    },
+    {
+      "id": "cust-3",
+      "customer_code": "CUST-1003",
+      "name": "Metro Motors & Service Hub",
+      "mobile": "+91 98711 00998",
+      "email": "service@metromotors.in",
+      "address": "Main Mathura Road, Badarpur, New Delhi",
+      "gstin": "07AAFFM4321E1Z0",
+      "vehicle_number": "DL 03 EB 5678",
+      "vehicle_model": "Dealer / Garage",
+      "customer_type": "dealer",
+      "credit_limit": 150000,
+      "outstanding_balance": 28600,
+      "created_at": "2026-02-10T10:00:00Z"
+    }
+  ],
+  "sales_invoices": [
+    {
+      "id": "inv-1001",
+      "invoice_number": "INV-2026-1001",
+      "invoice_date": "2026-08-10",
+      "due_date": "2026-08-10",
+      "customer_id": "cust-2",
+      "customer_name": "Rohan Malhotra",
+      "customer_mobile": "+91 98188 55443",
+      "customer_address": "House 402, Block B, Vasant Kunj, New Delhi",
+      "customer_gstin": "",
+      "customer_type": "retail",
+      "is_interstate": false,
+      "items": [
+        {
+          "id": "sitem-1",
+          "tyre_id": "tyre-102",
+          "tyre_name": "MRF ZVTV 175/65 R15",
+          "size": "175/65 R15",
+          "quantity": 4,
+          "selling_price": 5200,
+          "discount": 200,
+          "taxable_amount": 16093.75,
+          "gst_rate": 28,
+          "gst_amount": 4506.25,
+          "total_amount": 20600
+        }
+      ],
+      "subtotal": 20800,
+      "discount": 200,
+      "taxable_amount": 16093.75,
+      "cgst": 2253.125,
+      "sgst": 2253.125,
+      "igst": 0,
+      "total_gst": 4506.25,
+      "grand_total": 20600,
+      "amount_paid": 20600,
+      "balance_due": 0,
+      "payment_status": "paid",
+      "payment_mode": "upi",
+      "notes": "Includes wheel balancing & tubeless valve fitment.",
+      "created_by": "Amit Kumar",
+      "created_at": "2026-08-10T14:15:00Z"
+    },
+    {
+      "id": "inv-1002",
+      "invoice_number": "INV-2026-1002",
+      "invoice_date": "2026-08-11",
+      "due_date": "2026-08-25",
+      "customer_id": "cust-1",
+      "customer_name": "Sunil Transport Fleet Pvt Ltd",
+      "customer_mobile": "+91 99100 88221",
+      "customer_address": "D-12 Okhla Industrial Area Phase 3, New Delhi",
+      "customer_gstin": "07AABCS1234D1Z9",
+      "customer_type": "fleet",
+      "is_interstate": false,
+      "items": [
+        {
+          "id": "sitem-2",
+          "tyre_id": "tyre-102",
+          "tyre_name": "MRF ZVTV 175/65 R15",
+          "size": "175/65 R15",
+          "quantity": 8,
+          "selling_price": 5200,
+          "discount": 1600,
+          "taxable_amount": 31250,
+          "gst_rate": 28,
+          "gst_amount": 8750,
+          "total_amount": 40000
+        }
+      ],
+      "subtotal": 41600,
+      "discount": 1600,
+      "taxable_amount": 31250,
+      "cgst": 4375,
+      "sgst": 4375,
+      "igst": 0,
+      "total_gst": 8750,
+      "grand_total": 40000,
+      "amount_paid": 10000,
+      "balance_due": 30000,
+      "payment_status": "partial",
+      "payment_mode": "credit",
+      "notes": "Credit term 15 days as per agreement.",
+      "created_by": "Amit Kumar",
+      "created_at": "2026-08-11T16:00:00Z"
+    }
+  ],
+  "sales_returns": [],
+  "payments": [],
+  "employees": [
+    {
+      "id": "emp-101",
+      "employee_code": "EMP-01",
+      "name": "Rajesh Sharma",
+      "mobile": "+91 98765 43210",
+      "email": "owner@apextyres.com",
+      "address": "22 Civil Lines, New Delhi",
+      "joining_date": "2020-01-01",
+      "designation": "owner",
+      "salary": 120000,
+      "bank_name": "HDFC Bank",
+      "account_number": "5010022334455",
+      "ifsc_code": "HDFC0001234",
+      "status": "active"
+    },
+    {
+      "id": "emp-102",
+      "employee_code": "EMP-02",
+      "name": "Vikram Singh",
+      "mobile": "+91 98765 43211",
+      "email": "vikram@apextyres.com",
+      "address": "B-14 Janakpuri, New Delhi",
+      "joining_date": "2022-03-15",
+      "designation": "manager",
+      "salary": 45000,
+      "bank_name": "ICICI Bank",
+      "account_number": "001105012345",
+      "ifsc_code": "ICIC0000011",
+      "status": "active"
+    },
+    {
+      "id": "emp-103",
+      "employee_code": "EMP-03",
+      "name": "Priya Verma",
+      "mobile": "+91 98765 43212",
+      "email": "priya@apextyres.com",
+      "address": "Sector 4, Rohini, Delhi",
+      "joining_date": "2023-06-01",
+      "designation": "accountant",
+      "salary": 32000,
+      "bank_name": "Axis Bank",
+      "account_number": "9180100334455",
+      "ifsc_code": "UTIB0000918",
+      "status": "active"
+    },
+    {
+      "id": "emp-104",
+      "employee_code": "EMP-04",
+      "name": "Amit Kumar",
+      "mobile": "+91 98765 43213",
+      "email": "amit@apextyres.com",
+      "address": "Pocket 2, Dwarka, Delhi",
+      "joining_date": "2023-09-10",
+      "designation": "sales_executive",
+      "salary": 26000,
+      "bank_name": "State Bank of India",
+      "account_number": "334455667788",
+      "ifsc_code": "SBIN0000456",
+      "status": "active"
+    },
+    {
+      "id": "emp-105",
+      "employee_code": "EMP-05",
+      "name": "Suresh Tech",
+      "mobile": "+91 98765 43214",
+      "email": "suresh@apextyres.com",
+      "address": "Lajpat Nagar 2, Delhi",
+      "joining_date": "2024-01-05",
+      "designation": "technician",
+      "salary": 22000,
+      "bank_name": "Punjab National Bank",
+      "account_number": "012300011223",
+      "ifsc_code": "PUNB0012300",
+      "status": "active"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "employee_id": "emp-101",
+      "employee_name": "Rajesh Sharma",
+      "date": "2026-08-12",
+      "status": "present",
+      "remarks": "On time"
+    },
+    {
+      "id": "att-2",
+      "employee_id": "emp-102",
+      "employee_name": "Vikram Singh",
+      "date": "2026-08-12",
+      "status": "present",
+      "remarks": "Morning shift"
+    },
+    {
+      "id": "att-3",
+      "employee_id": "emp-103",
+      "employee_name": "Priya Verma",
+      "date": "2026-08-12",
+      "status": "present",
+      "remarks": "Accounts desk"
+    },
+    {
+      "id": "att-4",
+      "employee_id": "emp-104",
+      "employee_name": "Amit Kumar",
+      "date": "2026-08-12",
+      "status": "present",
+      "remarks": "Sales counter"
+    },
+    {
+      "id": "att-5",
+      "employee_id": "emp-105",
+      "employee_name": "Suresh Tech",
+      "date": "2026-08-12",
+      "status": "present",
+      "remarks": "Alignment bay"
+    }
+  ],
+  "salaries": [
+    {
+      "id": "sal-2026-07-102",
+      "pay_period": "2026-07",
+      "employee_id": "emp-102",
+      "employee_name": "Vikram Singh",
+      "designation": "Manager",
+      "basic_salary": 30000,
+      "allowances": 15000,
+      "overtime": 2000,
+      "bonus": 1000,
+      "gross_salary": 48000,
+      "deductions": 2000,
+      "advance": 0,
+      "leave_deduction": 0,
+      "net_salary": 46000,
+      "working_days": 26,
+      "present_days": 26,
+      "absent_days": 0,
+      "payment_status": "paid",
+      "payment_date": "2026-08-01",
+      "generated_at": "2026-07-31T18:00:00Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-08-01T10:00:00Z",
+      "user_name": "Rajesh Sharma",
+      "user_role": "admin",
+      "action": "System Initialized",
+      "module": "Settings",
+      "new_value": "Apex Tyre Care & Alignment Hub initialized with default master catalogue."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-08-10T14:15:00Z",
+      "user_name": "Amit Kumar",
+      "user_role": "sales",
+      "action": "Create Invoice",
+      "module": "Sales & Invoices",
+      "new_value": "Generated Invoice INV-2026-1001 for ₹20,600 (Rohan Malhotra)"
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-08-11T16:00:00Z",
+      "user_name": "Amit Kumar",
+      "user_role": "sales",
+      "action": "Create Invoice",
+      "module": "Sales & Invoices",
+      "new_value": "Generated Invoice INV-2026-1002 for ₹40,000 (Sunil Transport)"
+    }
+  ],
+  "settings": {
+    "business_name": "Apex Tyre Care & Alignment Hub",
+    "logo": "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=150&auto=format&fit=crop&q=80",
+    "address": "Plot 42, GT Road, Industrial Area Phase 1",
+    "phone": "+91 98765 43210",
+    "email": "support@apextyres.com",
+    "gstin": "07AAAAA0000A1Z5",
+    "state": "Delhi (07)",
+    "pin_code": "110020",
+    "invoice_prefix": "INV-2026-",
+    "starting_number": 1001,
+    "invoice_footer": "Thank you for choosing Apex Tyre Care! Drive Safe & Check Tyre Pressure Monthly.",
+    "terms_and_conditions": "1. Warranty as per manufacturer terms.\n2. Goods once sold cannot be taken back without valid GST invoice.\n3. Payment due within 15 days for credit customers.",
+    "default_min_stock": 5,
+    "allow_negative_stock": false,
+    "low_stock_threshold": 5,
+    "gst_rates": [
+      0,
+      5,
+      12,
+      18,
+      28
+    ],
+    "default_gst_rate": 28,
+    "tax_calculation_method": "exclusive"
+  }
+}
